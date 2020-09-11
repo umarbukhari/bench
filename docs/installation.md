@@ -15,8 +15,15 @@ To install the Frappe/ERPNext server software, you will need an operating system
 
 To manually install frappe/erpnext, you can follow this [this wiki](https://github.com/frappe/frappe/wiki/The-Hitchhiker%27s-Guide-to-Installing-Frappe-on-Linux) for Linux and [this wiki](https://github.com/frappe/frappe/wiki/The-Hitchhiker's-Guide-to-Installing-Frappe-on-Mac-OS-X) for MacOS. It gives an excellent explanation about the stack. You can also follow the steps mentioned below:
 
+#### 1. Installing on CentOS 7
+<pre>
+• Disable SELinux
+</pre>
+
+
 #### 1. Install Prerequisites
 <pre>
+• git
 • Python 3.6+
 • Node.js 12
 • Redis 5					(caching and realtime updates)
